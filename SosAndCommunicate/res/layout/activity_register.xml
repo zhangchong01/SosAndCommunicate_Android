@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/register_include"
+        layout="@layout/head" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_include"
+        android:background="@color/background"
+        android:orientation="vertical" 
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_weight="0"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xuexiao"
+                android:textSize="20sp" />
+            
+            <Spinner 
+                android:id="@+id/sp_register_university"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content"
+           		android:layout_marginLeft="30dp"
+           		android:entries="@array/spinner_university"
+           		android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xueyuan"
+                android:textSize="20sp" />
+
+            <Spinner 
+                android:id="@+id/sp_register_college"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content"
+           		android:layout_marginLeft="30dp"
+           		android:entries="@array/spinner_college"
+           		android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhuanye"
+                android:textSize="20sp" />
+
+            <Spinner 
+                android:id="@+id/sp_register_major"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content"
+           		android:layout_marginLeft="30dp"
+           		android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/divide" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xuehao"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_register_studentID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:inputType="number"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true" 
+                android:hint="@string/xuehao"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/divide" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xingming"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_register_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true" 
+                android:hint="@string/xingming"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/divide" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xingbie"
+                android:textSize="20sp" />
+
+            <Spinner 
+                android:id="@+id/sp_register_sex"
+           		android:layout_width="fill_parent"
+           		android:layout_height="wrap_content"
+           		android:layout_marginLeft="30dp"
+           		android:entries="@array/spinner_sex"
+           		android:textSize="15sp"/>
+
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/divide" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shouji"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_register_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:singleLine="true" 
+                android:hint="@string/shouji"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@string/img"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_weight="0"
+            android:background="@color/divide" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:onClick="register"
+            android:text="@string/jihuo"
+            android:textSize="25sp"
+            android:background="@drawable/btn_selector" />
+    </LinearLayout>
+
+</RelativeLayout>

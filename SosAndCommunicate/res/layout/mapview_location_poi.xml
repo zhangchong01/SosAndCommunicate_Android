@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/llMLMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <com.baidu.mapapi.map.MapView
+                    android:id="@+id/mMapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true" />
+
+                <LinearLayout
+                    android:id="@+id/llLocationTipMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+<!--                     <LinearLayout -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:layout_height="0dp" -->
+<!--                         android:layout_weight="1" -->
+<!--                         android:gravity="center" -->
+<!--                         android:orientation="vertical" > -->
+
+                        <TextView
+                            android:id="@+id/tvShowLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/location_tips"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:contentDescription="@string/img" 
+                            android:id="@+id/ivLocationTip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-6dp"
+                            android:src="@drawable/icon_gcoding" />
+<!--                     </LinearLayout> -->
+
+<!--                     <LinearLayout -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:layout_height="0dp" -->
+<!--                         android:layout_weight="1" -->
+<!--                         android:orientation="vertical" > -->
+<!--                     </LinearLayout> -->
+                </LinearLayout>
+
+                <ImageButton
+                    android:contentDescription="@string/img" 
+                    android:id="@+id/ibMLLocate"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="56dp"
+                    android:background="@null"
+                    android:src="@drawable/selector_ib_locate" />
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="right|bottom" -->
+                <!-- android:layout_marginBottom="80dp" -->
+                <!-- android:layout_marginRight="10dp" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <Button -->
+                <!-- android:id="@+id/btMapZoomIn" -->
+                <!-- android:layout_width="38dp" -->
+                <!-- android:layout_height="38dp" -->
+                <!-- android:background="@drawable/selector_bt_map_jia" -->
+                <!-- /> -->
+
+
+                <!-- <Button -->
+                <!-- android:id="@+id/btMapZoomOut" -->
+                <!-- android:layout_width="38dp" -->
+                <!-- android:layout_height="38dp" -->
+                <!-- android:background="@drawable/selector_bt_map_jian" -->
+                <!-- /> -->
+                <!-- </LinearLayout> -->
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6" >
+
+                <ImageView
+                    android:contentDescription="@string/img" 
+                    android:id="@+id/ivMLPLoading"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/loading_01"
+                    android:visibility="gone" />
+
+                <ListView
+                    android:id="@+id/lvPoiList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:dividerHeight="2dp"
+                    android:fastScrollEnabled="true"
+                    android:scrollbars="none"
+                    android:scrollingCache="false"
+                    android:visibility="gone" >
+                </ListView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etMLCityPoi"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/merchants_service_comment_edit_bg"
+            android:drawableLeft="@drawable/circle_icon_box_04"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/sousuo"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/lvMLCityPoi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/etMLCityPoi"
+            android:layout_margin="5dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:dividerHeight="2dp"
+            android:fastScrollEnabled="true"
+            android:scrollbars="none"
+            android:scrollingCache="false"
+            android:visibility="gone" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

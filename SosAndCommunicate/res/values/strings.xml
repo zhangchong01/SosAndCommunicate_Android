@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sosBlog">求助帖</string>
+    <string name="communicateBlog">交流帖</string>
+    
+    <string name="info_11">注册登陆功能</string>
+    <string name="info_12">账户管理功能</string>
+    <string name="info_13">发布求助功能</string>
+    <string name="info_14">发帖交流功能</string>
+    <string name="info_15">历史记录功能</string>
+    <string name="info_16">信用积分功能</string>
+    <string name="info_17">详细设置功能</string>
+    <string name="info_18">地理定位功能</string>
+    <string name="info_19">消息推送功能</string>
+    <string name="info_31">恭喜您，当前已是最新版本！</string>
+    <string name="info_41">腾讯QQ</string>
+    <string name="info_42">新浪微博</string>
+    <string name="info_43">百度贴吧</string>
+    <string name="info_44">微信</string>
+    <string name="info_45">易信</string>
+    <string name="info_46">陌陌</string>
+    <string name="info_47">知乎</string>
+    <string name="info_48">豆瓣</string>
+    <string name="info_51">输入反馈</string>
+    <string name="info_52">提　交</string>
+    <string name="info_61">浙江理工大学</string>
+    <string name="info_62">信息学院</string>
+    <string name="info_63">计算机科学与技术</string>
+    <string name="info_64">张冲</string>
+    
+    <string-array name="spinner_university">
+    <item>请选择</item>
+    <item>清华大学</item>
+    <item>北京大学</item>
+    <item>浙江大学</item>
+    <item>同济大学</item>
+    <item>厦门大学</item>
+    <item>浙江工业大学</item>
+    <item>浙江理工大学</item>
+    <item>大连理工大学</item>
+    <item>上海海洋大学</item>
+    <item>南京理工大学</item>
+    <item>电子科技大学</item>
+    <item>浙江传媒学院</item>
+    <item>武汉理工大学</item>
+    <item>中国计量大学</item>
+    </string-array>
+    
+    <string-array name="spinner_college">
+    <item>请选择</item>
+    <item>服装学院</item>
+    <item>信息学院</item>
+    <item>建工学院</item>
+    <item>材纺学院</item>
+    <item>经管学院</item>
+    <item>机械学院</item>
+    <item>法政学院</item>
+    <item>文传学院</item>
+    </string-array>
+    
+    <string-array name="spinner_majors1">
+    <item>请选择</item>
+    <item>服装设计与工程</item>
+    <item>服装与服饰设计</item>
+    <item>产品设计</item>
+    <item>表演</item>
+    <item>设计与营销</item>
+    </string-array>
+    
+    <string-array name="spinner_majors2">
+    <item>请选择</item>
+    <item>电子信息工程</item>
+    <item>电子信息科学与技术</item>
+    <item>计算机科学与技术</item>
+    <item>通信工程</item>
+    <item>数字媒体技术</item>
+    </string-array>
+    
+    <string-array name="spinner_majors3">
+    <item>请选择</item>
+    <item>建筑环境与设备工程</item>
+    <item>建筑学</item>
+    <item>土木工程</item>
+    <item>工程管理</item>
+    <item>风景园林</item>
+    </string-array>
+    
+    <string-array name="spinner_majors4">
+    <item>请选择</item>
+    <item>纺织工程</item>
+    <item>材料工程</item>
+    <item>轻化工程</item>
+    <item>设计与包装</item>
+    <item>纺织化学和染整工程</item>
+    </string-array>
+    
+    <string-array name="spinner_majors5">
+    <item>请选择</item>
+    <item>国际经济与贸易</item>
+    <item>管理科学与工程</item>
+    <item>工商管理</item>
+    <item>人力资源管理</item>
+    <item>市场营销</item>
+    </string-array>
+    
+    <string-array name="spinner_majors6">
+    <item>请选择</item>
+    <item>机械设计制造及自动化</item>
+    <item>测控技术与仪器</item>
+    <item>动力工程</item>
+    <item>过程装备与控制</item>
+    <item>工业工程</item>
+    </string-array>
+    
+    <string-array name="spinner_majors7">
+    <item>请选择</item>
+    <item>法律</item>
+    <item>社会工作</item>
+    <item>公共管理</item>
+    <item>人文社会科学</item>
+    <item>行政管理</item>
+    </string-array>
+    
+    <string-array name="spinner_majors8">
+    <item>请选择</item>
+    <item>中文</item>
+    <item>传播</item>
+    <item>汉语国际教育</item>
+    <item>中国传统文化</item>
+    <item>新闻传播</item>
+    </string-array>
+    
+    <string-array name="spinner_sex">
+    <item>请选择</item>
+    <item>男</item>
+    <item>女</item>
+    </string-array>
+    
+    <string name="fasong">发送</string>
+    <string name="back"> Back </string>
+    <string name="chat">Chat</string>
+
+    <string name="location">附近位置</string>
+    
+    <string name="app_name">求助交流</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sousuo">搜索</string>
+    <string name="home">首页</string>
+    <string name="message">消息</string>
+    <string name="find">定位</string>
+    <string name="myinfo">关于</string>
+   
+    <string name="str_sliding_bottom_text">摇动呼救</string>
+    
+    <string name="str_middle_text1">求　助</string>
+    <string name="str_middle_text2">交　流</string>
+    <string name="str_middle_text3">历　史</string>
+    <string name="str_middle_text4">信　用</string>
+    <string name="str_middle_text5">设　置</string>
+    <string name="str_middle_text6">注　销</string>
+    
+    <string name="img">图片</string>
+    
+    <string name="baocun">保存</string>
+    
+    <string name="touxiang">头像</string>
+    <string name="xingming">姓名</string>
+    <string name="xingbie">性别</string>
+    <string name="shouji">手机</string>
+    <string name="xuexiao">学校</string>
+    <string name="xueyuan">学院</string>
+    <string name="zhuanye">专业</string>
+    <string name="xuehao">学号</string>
+    
+    <string name="tiwenyonghu">提问用户</string>
+    <string name="xuanzezhuti">选择主题</string>
+    <string name="suoshuzhuti">所属主题</string>
+    <string name="tichuwenti">提出问题</string>
+    <string name="tiwenxiangqing">提问详情</string>
+    
+    <string name="zhurencishu">助人次数</string>
+    <string name="dayicishu">答疑次数</string>
+    <string name="huodejifen">获得积分</string>
+    <string name="jifendengji">积分等级</string>
+    
+    <string name="hintID">请输入学号</string>
+    <string name="hintPSD">请输入密码</string>
+    <string name="login_btn">登	　　陆</string>
+    <string name="register">注册</string>
+    <string name="forgetPSD">忘记密码</string>
+    
+    <string name="jihuo">激　　　　活</string>
+
+    <string name="tongyong">通用设置</string>
+    <string name="tongzhi">通知设置</string>
+    <string name="yinsi">隐私设置</string>
+    <string name="anquan">安全设置</string>
+    <string name="fuzhu">辅助设置</string>
+    
+    <string name="qiuzhuyonghu">求助用户</string>
+    <string name="qiuzhuzhuti">求助主题</string>
+    <string name="qiuzhushijian">求助时间</string>
+    <string name="qiuzhudidian">求助地点</string>
+    <string name="lianxifangshi">联系方式</string>
+    <string name="qiuzhuxiangqing">求助详情</string>
+    
+    <string name="tiwen">提　　　　问</string>
+    <string name="qiuzhu">求　　　　助</string>
+    
+    <string name="qingshuru">请输入</string>
+    <string name="huida">回答</string>
+    <string name="bangta">帮　　　　TA</string>
+    
+    <string name="banben">求助交流V1.0.0</string>
+    <string name="gongnengjieshao">功能介绍</string>
+    <string name="yaoqinghaoyou">邀请好友</string>
+    <string name="jianchagengxin">检查更新</string>
+    <string name="yingyongtuijian">应用推荐</string>
+    <string name="pingjiafankui">评价反馈</string>
+    <string name="guanyuzuozhe">关于作者</string>
+    
+    <string name="paizhao">拍　照</string>
+    <string name="xiangce">相　册</string>
+    <string name="quxiao">取　消</string>
+    
+    <string name="lixianxiaoxi">离线消息</string>
+    <string name="youxiangtixing">邮箱提醒</string>
+    <string name="fujinderen">附近的人</string>
+    <string name="yuyinshuru">语音输入</string>
+    <string name="tingtongmoshi">听筒模式</string>
+    <string name="zhongyingqiehuan">中英切换</string>
+    
+    <string name="xiaoxituisong">消息推送</string>
+    <string name="xianshixiangqing">显示详情</string>
+    <string name="xianglingtixing">响铃提醒</string>
+    <string name="zhendongtixing">振动提醒</string>
+    <string name="xitongyinxiao">系统音效</string>
+    
+    <string name="wuhendenglu">无痕登录</string>    
+    <string name="yunxudingwei">允许定位</string>
+    <string name="yincanzhenming">隐藏真名</string>
+    <string name="tongbutongxun">同步通讯</string>
+    <string name="haoyouyanzheng">好友验证</string>
+    
+    <string name="shoushimima">手势密码</string>
+    <string name="zhanghaobaohu">账号保护</string>
+    <string name="mimabaohu">密码保护</string>
+    <string name="bangdingweixin">绑定微信</string>
+    <string name="bangdingweibo">绑定微博</string>
+    <string name="bangdingyouxiang">绑定邮箱</string>
+    
+    <string name="assistivetouch">AssistiveTouch</string>
+    <string name="shoushicaozuo">允许手势操作</string>
+    <string name="qiehuankongzhi">允许切换控制</string>
+    <string name="anniusudu">加快按钮速度</string>
+    <string name="chumosudu">加快触摸速度</string>
+    <string name="dahaowenben">大号文本模式</string>
+    <string name="zidonglangdu">自动朗读文本</string>
+    
+    <string name="zuoyinhao">“</string>
+    <string name="youyinhao">”</string>
+    
+    <string name="xialashuaxin">下拉刷新</string>
+    <string name="shangcigengxin">上次更新</string>
+    
+    <string name="shiping">视屏</string>
+    <string name="tupian">图片</string>
+    <string name="dingwei">定位</string>
+
+    
+    <string-array name="spinner_sos_theme">
+    <item>请选择</item>
+    <item>理学</item>
+    <item>工学</item>
+    <item>农学</item>
+    <item>医学</item>
+    <item>文学</item>
+    <item>哲学</item>
+    <item>法学</item>
+    <item>艺术</item>
+    <item>管理学</item>
+    <item>经济学</item>
+    <item>历史学</item>
+    <item>教育学</item>
+    <item>IT计算机</item>
+    <item>经管营销</item>
+    <item>医药卫生</item>
+    <item>自然科学</item>
+    <item>农林牧鱼</item>
+    <item>人文社科</item>
+    <item>工程科技</item>
+    <item>法律文书</item>
+    </string-array>
+    
+    <string-array name="spinner_communicate_theme">
+    <item>请选择</item>
+    <item>生活</item>
+    <item>饮食</item>
+    <item>游戏</item>
+    <item>体育</item>
+    <item>音乐</item>
+    <item>旅游</item>
+    <item>购物</item>
+    <item>娱乐</item>
+    <item>美妆</item>
+    <item>时尚</item>
+    <item>影视</item>
+    <item>家居</item>
+    <item>摄影</item>
+    <item>养生</item>
+    <item>聚会</item>
+    <item>政治</item>
+    <item>新闻</item>
+    </string-array>
+    
+</resources>

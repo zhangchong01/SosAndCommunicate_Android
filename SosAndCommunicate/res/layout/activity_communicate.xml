@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true" >
+
+    <include
+        android:id="@+id/communicate_include"
+        layout="@layout/head" />
+
+    <include
+        android:id="@+id/communicate_bottom"
+        layout="@layout/communicate_bottom" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/communicate_bottom"
+        android:layout_below="@id/communicate_include"
+        android:background="@color/background"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:layout_weight="0"
+                android:background="@color/divide"
+                android:contentDescription="@string/img" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background_selector"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xuanzezhuti"
+                    android:textSize="20sp" 
+                    android:layout_gravity="center_vertical"/>
+
+                <Spinner
+                    android:id="@+id/sp_communicate_theme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:entries="@array/spinner_communicate_theme"
+                    android:textSize="15sp" />
+                <!-- <EditText -->
+                <!-- android:id="@+id/et_communicate_theme" -->
+                <!-- android:layout_width="fill_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginLeft="30dp" -->
+                <!-- android:hint="@string/tiwenzhuti" -->
+                <!-- android:maxLength="20" -->
+                <!-- android:maxLines="1" -->
+                <!-- android:singleLine="true" -->
+                <!-- android:textSize="15sp"/> -->
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0"
+                android:background="@color/divide"
+                android:contentDescription="@string/img" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background_selector"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tichuwenti"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/et_communicate_question"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:hint="@string/tichuwenti"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0"
+                android:background="@color/divide"
+                android:contentDescription="@string/img" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_background_selector"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tiwenxiangqing"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/et_communicate_more"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="top"
+                    android:hint="@string/tiwenxiangqing"
+                    android:maxLength="1000"
+                    android:minLines="5"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:layout_weight="0"
+                android:background="@color/divide"
+                android:contentDescription="@string/img" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.chung.sosandcommunicate"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_black" >
+
+    <FrameLayout
+        android:id="@+id/fl_login_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp" >
+
+        <com.chung.tools.RoundProgressBar
+            android:id="@+id/rp_roundProgressBar"
+            android_custom:style="FILL"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android_custom:roundProgressColor="#FFBBFF"
+            android_custom:roundWidth="2dp" />
+
+        <ImageView
+            android:id="@+id/iv_login_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img"
+            android:src="@drawable/login" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/fl_login_head"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:hint="@string/hintID"
+            android:inputType="number"
+            android:singleLine="false" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignLeft="@+id/et_login_username"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="#ccc" >
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/relativeLayout1"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/btn_Regi"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/hintPSD"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_Regi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_login_password"
+            android:layout_alignBottom="@+id/et_login_password"
+            android:layout_alignRight="@+id/relativeLayout1"
+            android:background="@null"
+            android:onClick="tvregister"
+            android:text="@string/register" />
+    </RelativeLayout>
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/et_login_username" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/iv_login_head" -->
+    <!-- android:layout_marginLeft="30dp" -->
+    <!-- android:layout_marginRight="30dp" -->
+    <!-- android:hint="@string/hintID" -->
+    <!-- android:inputType="number" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textSize="20sp" /> -->
+
+
+    <!-- <EditText -->
+    <!-- android:id="@+id/et_login_password" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/et_login_username" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:layout_marginLeft="30dp" -->
+    <!-- android:layout_marginRight="30dp" -->
+    <!-- android:layout_marginTop="10dp" -->
+    <!-- android:hint="@string/hintPSD" -->
+    <!-- android:inputType="textPassword" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textSize="20sp" /> -->
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/rl_login"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_selector"
+        android:onClick="login"
+        android:text="@string/login_btn"
+        android:textSize="20sp" />
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/btn_login" -->
+    <!-- android:layout_marginTop="20dp" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_login_register" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginLeft="50dp" -->
+    <!-- android:clickable="true" -->
+    <!-- android:onClick="tvregister" -->
+    <!-- android:text="@string/register" -->
+    <!-- android:textColor="@color/bg_bule" -->
+    <!-- android:textSize="15sp" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_login_forgetpassword" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginRight="50dp" -->
+    <!-- android:clickable="true" -->
+    <!-- android:gravity="right" -->
+    <!-- android:onClick="forgetpassword" -->
+    <!-- android:text="@string/forgetPSD" -->
+    <!-- android:textColor="@color/bg_bule" -->
+    <!-- android:textSize="15sp" /> -->
+    <!-- </LinearLayout> -->
+
+</RelativeLayout>

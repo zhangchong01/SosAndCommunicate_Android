@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/tack_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_gallery_selector"
+        android:onClick="tackphoto"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="@string/paizhao"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#DAD9DB" />
+
+    <Button
+        android:id="@+id/choose_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_camera_selector"
+        android:onClick="choosephoto"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="@string/xiangce"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cancle_change_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/photo_cancel_selector"
+        android:onClick="canclechangehead"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="@string/quxiao"
+        android:textSize="20sp" />
+
+</LinearLayout>

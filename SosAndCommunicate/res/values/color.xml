@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="middleblue">#5f9cf9</color>
+    <color name="btn">#EEEEEE</color>
+    
+    <color name="lightgray">#eef2f5</color>
+    <color name="software_textColor_selected">#FFFC5555</color>  
+    <color name="software_textColor_unselected">#FF464646</color> 
+    
+    
+    <!-- actionbar栏的背景色 -->
+    <color name="bgtitlebar">#353A3D</color>
+    <!-- base -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#E1E1E1</color>
+    <color name="background">#EEF3FA</color>
+    <!-- bg -->
+    <color name="bg_black">#464646</color>
+    <color name="bg_green">#23C064</color>
+    <color name="bg_gray">#B3B3B3</color>
+    <color name="bg_red">#FF0000</color>
+    <color name="bg_yellow">#FFFF99</color>
+    <color name="bg_bule">#1253E2</color>
+    <!-- txt -->
+    <color name="txt_black">#2B2B2B</color>
+    <color name="txt_gray">#808080</color>
+    <color name="txt_green">#3ECFB1</color>
+    <color name="txt_red">#FF0000</color>
+    <color name="txt_yellow">#FF9C1C</color>
+    <color name="txt_bule">#1C58FF</color>
+    <!-- login -->
+    <color name="login_border_inside_color">#FFFFFF</color>
+    <color name="login_border_outside_color">#FFFFFF</color>
+    <color name="login_txt_black">#464646</color>
+    <color name="login_txt_gray">#ACACAC</color>
+    <color name="login_txt_green">#3ECFB1</color>
+    <color name="login_txt_red">#FF0000</color>
+    <!-- other -->
+    <color name="divide">#E4E4E4</color> 
+    
+    <color name="gold">#FFD700</color> 
+    
+
+    <color name="header_bg_common">#323a45</color>
+    <color name="title_txt_color">#f1f1f3</color>
+    <color name="circle_color">#323a45</color>
+    <color name="ring_color">#14b9d6</color>
+    
+    
+    
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

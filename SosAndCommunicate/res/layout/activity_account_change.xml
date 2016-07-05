@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/account_change_include"
+        layout="@layout/head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_change_account"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:hint=""
+            android:maxLength="11"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/txt_black" />
+
+        <Button
+            android:id="@+id/btn_change_account"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="saveChange"
+            android:text="@string/baocun"
+            android:textSize="15sp" 
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:background="@drawable/btn_selector" />
+    </LinearLayout>
+
+</LinearLayout>

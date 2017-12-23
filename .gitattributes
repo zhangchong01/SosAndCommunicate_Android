@@ -1,0 +1,3 @@
+*.css linguist-language=android
+*.js linguist-language=android
+*.html linguist-language=android
